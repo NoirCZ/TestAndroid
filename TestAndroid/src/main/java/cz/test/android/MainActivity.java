@@ -43,6 +43,9 @@ public class MainActivity extends Activity {
         if (id == R.id.action_settings) {
             return true;
         }
+        if (id == R.id.action_exit) {
+            System.exit(0);
+        }
         return super.onOptionsItemSelected(item);
     }
 
